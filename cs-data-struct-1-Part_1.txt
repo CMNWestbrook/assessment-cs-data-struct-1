@@ -1,0 +1,47 @@
+Discussion Questions
+
+Runtime
+1.
+    The workload of figuring out whether my box of animal crackers contains an elephant is determined by if and how the animal crackers are ordered. If there's no order then it's O(n) since it's necessary to go through the "list" of crackers one by one until an elephant is found.
+
+2. 
+    O(1)
+    O(log n)
+    O(n)
+    O(n log n)
+    O(n^2)
+    O(2^n)
+
+Stacks and Queues
+1.
+    1. LIFO - stack
+    2. FIFO - queue
+    3. FIFO - queue
+
+2. 
+    -Serving customers at an ice cream shop, first to arrive should be served and out of the line first.
+    -Addressing customer email complaints, first email should be replied to first or else email response time will be compromised.
+
+3.
+    -Rolling back to the previous iteration of something.
+    -Reversing a word by popping off the last letter one by one.
+
+Linked Lists
+1. 
+    Each attached set of boxes (except for the top one) is a node. The data for each node is the text in quotes in the left box of each box set. The head is where the arrow of box set "LLIST/head" points to. The tail is whatever box set is right before None.
+
+2.
+    The difference between a singly and doubly-linked list is that a doubly-linked list points to both a next and previous node and a singly-linked list only has a next node that it points to.
+
+3.
+    It's faster to append to a linked list if we keep track of the tail as an attribute because if it weren't kept track of every time you want to append something to the end of the linked list you'd have to go through every node one by one until you find out which node is the last.  
+
+Trees
+1.
+    food, Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, burritos
+
+2.
+    food, italian, lasagna, pizza, thin-crust, Chicago-style
+
+3.
+    A binary tree search is different from other trees because there is a predefined order regarding where each branch points. Each branch in a binary search tree has only two nodes.
